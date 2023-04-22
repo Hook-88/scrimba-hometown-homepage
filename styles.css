@@ -1,20 +1,130 @@
 body {
   margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Carlito', sans-serif;
 }
 
 header {
   background: url("https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
   background-size: cover;
-  height: 300px;
+  height: 30%;
   padding: 4rem;
   color: #efefefef;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 2px black;
 }
 
 .header-title {
-  background-color: #1D3557;
+  background-color: #2B2A28;
   padding: .5rem 1.2rem;
   border-radius: .8rem;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 2px black;
 }
+
+.header-subtitle {
+  background-color: #658EA4;
+  padding: .5rem 1.5rem;
+  border-radius: .5rem;
+  width: 400px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 1px grey;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+.card-title {
+  margin-bottom: 0;
+}
+
+#monserate-img {
+  background: url("https://www.ccb.org.co/var/ccb/storage/images/media/ccb/portal-ccb/imagenes-ccb/monserrate/3450202-1-esl-CO/Monserrate.jpg");
+  background-size: cover;  
+}
+
+#graffiti-img {
+  background: url("https://images.unsplash.com/photo-1562857557-4ff821b4aa8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80");
+  background-size: cover;  
+}
+
+#tejo-img {
+  background: url("https://republicahostels.com/wp-content/uploads/2018/02/play-tejo-bogota-colombia.jpg");
+  background-size: cover;  
+}
+
+main {
+  background-color: #D6CFC9;
+  padding: 40px 0;
+  height: 30%;
+  color: #2B2A28;
+}
+
+.main-title {
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+}
+
+.card-paul {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #98B1BF;
+  border-bottom: 5px solid #2B2A28;
+  color: #2B2A28;
+}
+
+.card-paul-text {
+  width: 180px;
+}
+
+.avatar-img {
+  width: 180px;
+  height: 250px;
+  background: url("./paul_jung.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: inherit;
+}
+
+.card-paul-title {
+  margin-top: 0;
+}
+
+.card-paul-name {
+  font-weight: bold;
+}
+
+
